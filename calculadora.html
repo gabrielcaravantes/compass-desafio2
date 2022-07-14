@@ -40,7 +40,7 @@
           <input type="number" id="alturap1" name="altura" value="" placeholder="Altura da parede" class="espaco-dentro-form">
 
           <label for="largurap1" class="espaco-dentro-form">Digite a largura da primeira parede em metros:</label>
-          <input type="number" id="largurap1" name="largura" value="" placeholder="Largura da parede" class="espaco-dentro-form">
+          <input type="number" id="largurap1" name="largura" value="" placeholder="Largura da parede" class="espaco-dentro-form" onkeyup="valida()">
 
         </div>
 
@@ -50,7 +50,7 @@
           <input type="number" id="alturap2" name="altura" value="" placeholder="Altura da parede">
   
           <label for="largurap2">Digite a largura da segunda parede em metros:</label>
-          <input type="number" id="largurap2" name="largura" value="" placeholder="Largura da parede" class="espaco-dentro-form">
+          <input type="number" id="largurap2" name="largura" value="" placeholder="Largura da parede" class="espaco-dentro-form" onkeyup="valida2()">
 
         </div>
       
@@ -60,7 +60,7 @@
           <input type="number" id="alturap3" name="altura" value="" placeholder="Altura da parede" class="espaco-dentro-form">
   
           <label for="largurap3" class="espaco-dentro-form">Digite a largura da terceira parede em metros:</label>
-          <input type="number" id="largurap3" name="largura" value="" placeholder="Largura da parede" class="espaco-dentro-form">
+          <input type="number" id="largurap3" name="largura" value="" placeholder="Largura da parede" class="espaco-dentro-form" onkeyup="valida3()">
 
         </div>
 
@@ -70,18 +70,19 @@
           <input type="number" id="alturap4" name="altura" value="" placeholder="Altura da parede" class="espaco-dentro-form">
   
           <label for="largurap4" class="espaco-dentro-form">Digite a largura da quarta parede em metros:</label>
-          <input type="number" id="largurap4" name="largura" value="" placeholder="Largura da parede" class="espaco-dentro-form">
+          <input type="number" id="largurap4" name="largura" value="" placeholder="Largura da parede" class="espaco-dentro-form" onkeyup="valida4()">
           
         </div>
 
+        <span class="span-do-form">Portas e Janelas</span>
         <div class="quantas-portas">
           <label for="quantas-portas" class="espaco-dentro-form">Digite a quantidade de portas no cômodo:</label>
-          <input type="number" id="quantas-portas" name="porta" value="" placeholder="Quantidade de portas" class="espaco-dentro-form">
+          <input type="number" id="quantas-portas" name="porta" value="" placeholder="Quantidade de portas" class="espaco-dentro-form" onkeyup="validaPorta()">
         </div>
 
         <div class="quantas-janelas">
           <label for="quantas-janelas" class="espaco-dentro-form">Digite a quantidade de janelas no cômodo:</label>
-          <input type="number" id="quantas-janelas" name="janela" value="" placeholder="Quantidade de janelas" class="espaco-dentro-form">
+          <input type="number" id="quantas-janelas" name="janela" value="" placeholder="Quantidade de janelas" class="espaco-dentro-form" onkeyup="validaPJ()">
         </div>
         
         <button type="button" onclick="calcular()"  class="espaco-dentro-form">Tinta necessária</button>
