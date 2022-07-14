@@ -7,7 +7,7 @@ parede e quantas janelas e portas possuem cada parede. Com base na quantidade
 necessária o sistema deve apontar tamanhos de lata de tinta que o usuário deve
 comprar, sempre priorizando as latas maiores. 
 
-📋 Pré-requisitos
+📋 Pré-requisitos<br>
 Para utiliza-lo é necessário apenas de um navegador como Google Chrome ou Firefox.
 
 Para fazer o calculo da quantia de tinta necessária em litros e quantas latas serão necessárias, 
