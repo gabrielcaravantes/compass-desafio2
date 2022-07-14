@@ -8,8 +8,7 @@ necessária o sistema deve apontar tamanhos de lata de tinta que o usuário deve
 comprar, sempre priorizando as latas maiores. 
 
 📋 Pré-requisitos
-Para utiliza-lo é necessário apenas de um navegador como:
-Google Chrome ou Firefox
+Para utiliza-lo é necessário apenas de um navegador como Google Chrome ou Firefox.
 
 Para fazer o calculo da quantia de tinta necessária em litros e quantas latas serão necessárias, 
 você deve ir na área entitulada "Calculadora", facilmente identificada no cabeçalho da página ou 
@@ -25,6 +24,7 @@ que deseja saber (pode clicar nos dois).
 HTML
 CSS
 JavaScript
+
 
 ☺ Regras de Negócio:
 1. Nenhuma parede pode ter menos de 1 metro quadrado nem mais de 50 metros
