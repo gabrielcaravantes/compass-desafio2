@@ -21,9 +21,7 @@ que deseja saber (pode clicar nos dois).
 
 🛠️ Construído com
 
-HTML
-CSS
-JavaScript
+HTML, CSS e JavaScript
 
 
 ☺ Regras de Negócio:
