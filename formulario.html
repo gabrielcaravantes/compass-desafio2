@@ -31,7 +31,7 @@
       <p class="instrucao-contato">Preencha os dados a seguir para nos enviar uma mensagem e aguarde nosso retorno via email.</p>
       <form method="get" action="receba_dados.php">
         <label for="nome">Nome: </label>
-        <input type="text" name="nome" id="nome" required minlength="2" maxlength="35" placeholder="Digite seu nome">
+        <input type="text" name="nome" id="nome" required minlength="2" maxlength="35" placeholder="Digite seu nome" pattern="[a-zA-Z0-9]+">
         
         <label for="sobrenome">Sobrenome: </label>
         <input type="text" name="sobrenome" id="sobrenome" required minlength="2" maxlength="35" placeholder="Digite seu sobrenome">
