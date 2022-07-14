@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <title>Gabriel Tintas</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a class="logo" href="index.html">Gabriel Tintas</a>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="calculadora.html">Calculadora</a></li>
+          <li><a href="formulario.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main-calculadora">
+      <div>
+        <h1>Calculadora de Tintas</h1>
+        <p class="explica-calc">Calcula a área de cada parede entre 1m² até 50m². O total de área das janelas e portas deve ser de no máximo 50% da área da parede</p>
+        <p class="explica-calc">Cada litro de tinta é capaz de pintar 5 metros quadrados</p>
+        <p class="explica-calc">Cada porta possui as medidas: 0,80 x 1,90 metros</p>
+        <p class="explica-calc">Cada janela possui as medidas: 2,00 x 1,20 metros</p>
+      </div>
+      <form>
+        <div class="input-p1">
+          <span class="span-do-form">Parede 1</span>
+          <label for="alturap1" class="espaco-dentro-form">Digite a altura da primeira parede em metros:</label>
+          <input type="number" id="alturap1" name="altura" value="" placeholder="Altura da parede" class="espaco-dentro-form">
+
+          <label for="largurap1" class="espaco-dentro-form">Digite a largura da primeira parede em metros:</label>
+          <input type="number" id="largurap1" name="largura" value="" placeholder="Largura da parede" class="espaco-dentro-form">
+
+        </div>
+
+        <div class="input-p2">
+          <span class="span-do-form">Parede 2</span>
+          <label for="alturap2" class="espaco-dentro-form">Digite a altura da segunda parede em metros:</label>
+          <input type="number" id="alturap2" name="altura" value="" placeholder="Altura da parede">
+  
+          <label for="largurap2">Digite a largura da segunda parede em metros:</label>
+          <input type="number" id="largurap2" name="largura" value="" placeholder="Largura da parede" class="espaco-dentro-form">
+
+        </div>
+      
+        <div class="input-p3">
+          <span class="span-do-form">Parede 3</span>
+          <label for="alturap3" class="espaco-dentro-form">Digite a altura da terceira parede em metros:</label>
+          <input type="number" id="alturap3" name="altura" value="" placeholder="Altura da parede" class="espaco-dentro-form">
+  
+          <label for="largurap3" class="espaco-dentro-form">Digite a largura da terceira parede em metros:</label>
+          <input type="number" id="largurap3" name="largura" value="" placeholder="Largura da parede" class="espaco-dentro-form">
+
+        </div>
+
+        <div class="input-p4">
+          <span class="span-do-form">Parede 4</span>
+          <label for="alturap4" class="espaco-dentro-form">Digite a altura da quarta parede em metros:</label>
+          <input type="number" id="alturap4" name="altura" value="" placeholder="Altura da parede" class="espaco-dentro-form">
+  
+          <label for="largurap4" class="espaco-dentro-form">Digite a largura da quarta parede em metros:</label>
+          <input type="number" id="largurap4" name="largura" value="" placeholder="Largura da parede" class="espaco-dentro-form">
+          
+        </div>
+
+        <div class="quantas-portas">
+          <label for="quantas-portas" class="espaco-dentro-form">Digite a quantidade de portas no cômodo:</label>
+          <input type="number" id="quantas-portas" name="porta" value="" placeholder="Quantidade de portas" class="espaco-dentro-form">
+        </div>
+
+        <div class="quantas-janelas">
+          <label for="quantas-janelas" class="espaco-dentro-form">Digite a quantidade de janelas no cômodo:</label>
+          <input type="number" id="quantas-janelas" name="janela" value="" placeholder="Quantidade de janelas" class="espaco-dentro-form">
+        </div>
+        
+        <button type="button" onclick="calcular()"  class="espaco-dentro-form">Tinta necessária</button>
+        <div id="calculo"></div>
+        <button type="button" onclick="mostrarLatas()" class="espaco-dentro-form">Latas necessárias</button>
+        <div id="mostrar-latas"></div>
+
+      </form>
+        
+    </main>
+
+    <footer>
+      <h3 class="escritafooter">Gabriel Tintas</h3>
+      <img src="img/baldetinta.png">
+      <p class="pfooter">Deixe seu ambiente mais colorido</p>
+    </footer>
+
+    <script src="js/calculadora.js"></script>
+    <script src="js/navbar.js"></script>
+  </body>
+</html>
