@@ -1,16 +1,8 @@
 function calcular() {
-  areaP1 =
-    document.getElementById("alturap1").value *
-    document.getElementById("largurap1").value;
-  areaP2 =
-    document.getElementById("alturap2").value *
-    document.getElementById("largurap2").value;
-  areaP3 =
-    document.getElementById("alturap3").value *
-    document.getElementById("largurap3").value;
-  areaP4 =
-    document.getElementById("alturap4").value *
-    document.getElementById("largurap4").value;
+  areaP1 = document.getElementById("alturap1").value * document.getElementById("largurap1").value;
+  areaP2 = document.getElementById("alturap2").value * document.getElementById("largurap2").value;
+  areaP3 = document.getElementById("alturap3").value * document.getElementById("largurap3").value;
+  areaP4 = document.getElementById("alturap4").value * document.getElementById("largurap4").value;
 
   var areaParede = areaP1 + areaP2 + areaP3 + areaP4;
   var areaPorta = document.getElementById("quantas-portas").value * (0.8 * 1.9);
@@ -19,24 +11,14 @@ function calcular() {
   var areaTinta = areaParede - areaPJ;
   var tintaNecessaria = areaTinta / 5;
 
-  document.getElementById(
-    "calculo"
-  ).innerHTML = `A quantidade de tinta necessária é de ${tintaNecessaria} litros`;
+  document.getElementById("calculo").innerHTML = `A quantidade de tinta necessária é de ${tintaNecessaria} litros`;
 }
 
 function mostrarLatas() {
-  areaP1 =
-    document.getElementById("alturap1").value *
-    document.getElementById("largurap1").value;
-  areaP2 =
-    document.getElementById("alturap2").value *
-    document.getElementById("largurap2").value;
-  areaP3 =
-    document.getElementById("alturap3").value *
-    document.getElementById("largurap3").value;
-  areaP4 =
-    document.getElementById("alturap4").value *
-    document.getElementById("largurap4").value;
+  areaP1 = document.getElementById("alturap1").value * document.getElementById("largurap1").value;
+  areaP2 = document.getElementById("alturap2").value * document.getElementById("largurap2").value;
+  areaP3 = document.getElementById("alturap3").value * document.getElementById("largurap3").value;
+  areaP4 = document.getElementById("alturap4").value * document.getElementById("largurap4").value;
 
   var areaParede = areaP1 + areaP2 + areaP3 + areaP4;
   var areaPorta = document.getElementById("quantas-portas").value * (0.8 * 1.9);
@@ -74,9 +56,7 @@ function mostrarLatas() {
 }
 
 function valida() {
-  areaP1 =
-    document.getElementById("alturap1").value *
-    document.getElementById("largurap1").value;
+  areaP1 = document.getElementById("alturap1").value * document.getElementById("largurap1").value;
 
   if (areaP1 > 50 || areaP1 < 1) {
     alert("Área da parede deve ser maior que 1m² ou menor que 50m²");
@@ -85,9 +65,7 @@ function valida() {
 }
 
 function valida2() {
-  areaP2 =
-    document.getElementById("alturap2").value *
-    document.getElementById("largurap2").value;
+  areaP2 = document.getElementById("alturap2").value * document.getElementById("largurap2").value;
 
   if (areaP2 > 50 || areaP2 < 1) {
     alert("Área da parede deve ser maior que 1m² ou menor que 50m²");
@@ -96,9 +74,7 @@ function valida2() {
 }
 
 function valida3() {
-  areaP3 =
-    document.getElementById("alturap3").value *
-    document.getElementById("largurap3").value;
+  areaP3 = document.getElementById("alturap3").value * document.getElementById("largurap3").value;
 
   if (areaP3 > 50 || areaP3 < 1) {
     alert("Área da parede deve ser maior que 1m² ou menor que 50m²");
@@ -107,9 +83,7 @@ function valida3() {
 }
 
 function valida4() {
-  areaP4 =
-    document.getElementById("alturap4").value *
-    document.getElementById("largurap4").value;
+  areaP4 = document.getElementById("alturap4").value * document.getElementById("largurap4").value;
 
   if (areaP4 > 50 || areaP4 < 1) {
     alert("Área da parede deve ser maior que 1m² ou menor que 50m²");
@@ -118,18 +92,10 @@ function valida4() {
 }
 
 function validaPJ() {
-  areaP1 =
-    document.getElementById("alturap1").value *
-    document.getElementById("largurap1").value;
-  areaP2 =
-    document.getElementById("alturap2").value *
-    document.getElementById("largurap2").value;
-  areaP3 =
-    document.getElementById("alturap3").value *
-    document.getElementById("largurap3").value;
-  areaP4 =
-    document.getElementById("alturap4").value *
-    document.getElementById("largurap4").value;
+  areaP1 = document.getElementById("alturap1").value * document.getElementById("largurap1").value;
+  areaP2 = document.getElementById("alturap2").value * document.getElementById("largurap2").value;
+  areaP3 = document.getElementById("alturap3").value * document.getElementById("largurap3").value;
+  areaP4 = document.getElementById("alturap4").value * document.getElementById("largurap4").value;
 
   var areaParede = areaP1 + areaP2 + areaP3 + areaP4;
   var areaPorta = document.getElementById("quantas-portas").value * (0.8 * 1.9);
